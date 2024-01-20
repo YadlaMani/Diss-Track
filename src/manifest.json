@@ -1,0 +1,16 @@
+{ 
+        "name": "Diss-Track",
+        "version": "1.0",
+        "action":{
+            "default_popup": "extension.html",
+            "default_icon": "logo.png"
+        },
+        "manifest_version": 3,
+        "permissions": [
+            "tabs",
+            "storage"
+        ],
+        "background": {
+            "service_worker": "background.js"
+          }
+      }

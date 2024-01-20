@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Extension</title>
+    <link rel="stylesheet" href="extension.css" />
+    <!-- <center><h1>Dummy Name</h1></center> -->
+  </head>
+  <body>
+
+    <header>
+
+        <div class="head">
+            <div class="header top">
+              <h1 class="title">Diss-Track</h1>
+            </div>
+          </div>
+
+    </header>
+<div id="acttabv">
+    <div class="mainContainer">
+      <div class="container activeTab">
+        <div class="minActiveTab">
+          <h1 id="attt">Active Task</h1>
+        </div>
+
+        <br />
+        <ul id="feat">
+        </ul>
+        <center><button class="primaryButton" id="act">START</button></center>
+             <center><button class="primaryButton" id="actoff">STOP</button></center>
+      </div>
+    </div>
+  </div>  
+<div id="addtaskboxhere"></div>
+<div id="addtaskbox">
+    <div class="mainContainer">
+      <div class="container">
+        <div class="minActiveTab addtask">
+          <h1>Add Task</h1>
+        </div>
+        <div class="title">
+          <p class="names">Title:</p>
+          <input type="text" id="title" class="names1" placeholder="Title of task*" style="background-color: rgba(25, 167, 206,0.85);"/>
+        </div>
+
+        <div class="link">
+          <p class="names">Link:</p>
+          <input type="text" id="link" class="names1" placeholder="Link of work" style="background-color: rgba(25, 167, 206,0.85);" />
+        </div>
+
+        <div class="TimeInterval">
+          <p class="names">Time Interval:</p>
+          <select id="select" class="names1" ><option value="900">15 Mins</option>
+            <option value="1800">30 Mins</option><option value="2700">45 Mins</option><option value="3600">1 Hrs</option>
+            <option value="10800">3 Hrs</option><option value="21600">6 Hrs</option></select>
+        </div>
+
+        <div class="Occurance">
+          <p class="names">Repeat:</p>
+          <select id="select2" class="names1" ><option value="daily">Daily</option><option value="Weekly">Weekly</option></select>
+        </div>
+
+       <center><button class="primaryButton" id="save">Add Task</button></center> 
+      </div>
+    </div>
+</div>
+
+    
+
+    <div class="mainContainer">
+      <div class="minActiveTab">
+        <h1>All Task</h1>
+      </div>
+      <ul class="list" id="tasklist">
+      </ul>
+    </div>
+
+<div id="bottom">
+    <footer>
+      <nav class="navbar">
+        <div class="mainFeatures">
+          <div class="features">
+            <li class="items">
+              <img src="res/graph.png" id="streakopen" alt="Check Your Stats">
+            </li>
+            <li class="items">
+              <img src="res/crosshair.png" id="focus" alt="Blocks New Tabs">
+            </li>
+          </div>
+        </div>
+      </nav>
+  
+    </footer>
+  </div>
+
+  </body>
+  <script src="extension.js"></script>
+</html>
