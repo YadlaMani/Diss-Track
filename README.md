@@ -61,4 +61,4 @@ The Extension is loaded sucessfully :
 
 
 
-With DISS-TRACT, you can say goodbye to distractions and hello to maximum productivity.
+With Diss-Track, you can say goodbye to distractions and hello to maximum productivity.
