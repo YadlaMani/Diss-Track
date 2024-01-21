@@ -11,8 +11,8 @@ To install and deploy the Diss-Track web extension locally, follow these steps:
 1. Clone the repository to your local machine/Download the complete source code on your PC.
 2. Open your web browser and navigate to the extensions management page, For Google Chrome, enter chrome://extensions in the address bar.
 3. Enable developer mode in your browser's extension settings.
-4. Click the "Load unpacked" or "Load extension" button and select the DISS-TRACT folder you downloaded/cloned in step 1.
-5. The DISS-TRACT web extension should now be installed and ready to use.
+4. Click the "Load unpacked" or "Load extension" button and select the Diss-Track folder you downloaded/cloned in step 1.
+5. The Diss-Track web extension should now be installed and ready to use.
 
 Track used: WEB3
 
