@@ -3,6 +3,9 @@ Frost Hacks
 Introduction :
 
 Diss-Track is a web extension that allows users to block distracting websites and regain focus while browsing the internet. This README file provides instructions on how to deploy and use the Diss-Track web extension locally.
+It has two modes:
+1.Normal mode
+2.Focus mode
 
 Installation :
 
